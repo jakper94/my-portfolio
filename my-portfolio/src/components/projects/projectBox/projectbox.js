@@ -1,11 +1,12 @@
 import React from "react";
 import "./projectBox.scss"
 
-const ProjectBox = ({name}) => {
+const ProjectBox = ({title,logo}) => {
 
     return (
-        <div className="box">
-            <h1>{name}</h1>
+        <div className="project-box">
+            <img src={process.env.PUBLIC_URL + logo} alt=""/>
+            <h2>{title}</h2>
         </div>
     );
 };

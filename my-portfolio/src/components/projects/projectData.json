@@ -3,6 +3,43 @@
             {
                 "id": 1,
                 "title": "Brawl Gaming",
+                "logo": "/images/udhc-logo.png",
+                
+                "content":[
+                    {
+                    "images":[
+                        {
+                            "id":1,
+                            "url":"blabla"
+                        }
+                    ],
+                        "programs":[
+                            {
+                            "id": 1,
+                            "name": "React",
+                            "logo": "none"
+                            }
+                        ]
+                    }
+
+                ]
+            },
+            {
+                "id": 2,
+                "title": "Suncloud",
+                "logo": "/images/udhc-logo.png",
+                "programs":[
+                    {
+                    "id": 1,
+                    "name": "React",
+                    "logo": "none"
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "title": "Umeå Dragons HC",
+                "logo":"/images/udhc-logo.png",
                 "programs":[
                     {
                     "id": 1,
@@ -13,11 +50,12 @@
                 ]
             },
             {
-                "id": 2,
+                "id": 4,
                 "title": "Suncloud",
+                "logo": "/images/udhc-logo.png",
                 "programs":[
                     {
-                    "id": 2,
+                    "id": 1,
                     "name": "React",
                     "logo": "none"
                     }

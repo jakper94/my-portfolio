@@ -18,7 +18,12 @@ section {
   padding: 80px;
 }
 
-h1,
+h1{
+  color: $color-header-text;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  margin: 0;
+}
 h2,
 h3 {
   font-family: "Montserrat", sans-serif;

@@ -14,8 +14,8 @@ const Navigation = () => {
     <div className="navigation">
       <div className="logo">
         <div className="text">
-          <h4>Jakob</h4>
-          <h4>Persson</h4>
+          <h4>Jakob Persson</h4>
+         
         </div>
       </div>
       <div className="menu">

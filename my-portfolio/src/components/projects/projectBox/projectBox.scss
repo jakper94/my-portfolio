@@ -1,8 +1,18 @@
 @import "../../../resources/variables.scss";
 
-.box{
+.project-box{
+    display: flex;
+    flex-direction: column;
+
     background-color: red;
     height: 320px;
     width: 320px;
-    border-radius: 49px;
+    justify-content: center;
+    border-radius: 50px;
+    margin:20px 0;
+    img{
+        max-width: 85%;
+        height: auto;
+        margin:0 auto;
+    }
 }

@@ -6,10 +6,15 @@ const project = projectData.projects;
 const Projects = () =>{
     return (
         <section>
-            {project.map(projects=>(
-                <ProjectBox name={projects.title}/>
-            ))}
-            
+            <div className="header">
+                <h1>My Projects</h1>
+            </div>
+        
+            <div className="projectBoxes">
+                {project.map(projects=>(
+                    <ProjectBox title={projects.title} logo={projects.logo}/>
+                ))}
+            </div>
         </section>
         );
 }
