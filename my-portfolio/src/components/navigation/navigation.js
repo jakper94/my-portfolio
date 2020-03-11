@@ -1,5 +1,8 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import { FaInstagram } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+import { MdMailOutline} from "react-icons/md";
 import "./navigation.scss";
 
 
@@ -10,9 +13,6 @@ const Navigation = () => {
   return (
     <div className="navigation">
       <div className="logo">
-        <NavLink exact to="/">
-          <img src="/images/logo.png" alt="logo" />
-        </NavLink>
         <div className="text">
           <h4>Jakob</h4>
           <h4>Persson</h4>
@@ -22,9 +22,18 @@ const Navigation = () => {
         <NavLink exact to="/" onClick={() => scrollToTop()}>
           Home
         </NavLink>
+        <NavLink exact to ="/about" onClick= {()=> scrollToTop()}>
+          About
+        </NavLink>
+        
         <NavLink exact to="/projects" onClick={() => scrollToTop()}>
           Projects
         </NavLink>
+        <div className="icons">
+        <a href="mailto:jakob.j.persson@hotmail.com"><MdMailOutline size={30}/></a>
+        <a href="https://www.linkedin.com/in/jakob-persson/"><FaLinkedin size={30}/></a>
+      <a href="https://www.instagram.com/jakper/"  ><FaInstagram size={30} /></a>
+      </div>
       </div>
     </div>
   );

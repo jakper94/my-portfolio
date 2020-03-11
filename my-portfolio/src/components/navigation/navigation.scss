@@ -11,6 +11,7 @@ $navigation-height: 80px;
   display: flex;
   flex-flow: row wrap;
   align-items: center;
+  justify-content: center;  
   justify-content: space-between;
   box-sizing: border-box;
   height: $navigation-height;
@@ -43,7 +44,7 @@ $navigation-height: 80px;
       font-size: 1rem;
       color: $color-text;
       &:hover {
-        color: $color-active;
+        color: $color-underline;
         
       }
     }
@@ -52,7 +53,11 @@ $navigation-height: 80px;
     .active {
       color: $color-active;
       font-weight: bold;
-      text-decoration: underline #E27272 ;
+      text-decoration: underline $color-underline ;
+    }
+    .icons{
+      display: inline-block;
+      line-height: $navigation-height;
     }
   }
 }
