@@ -5,11 +5,15 @@
     flex-direction: column;
 
     background-color: red;
-    height: 320px;
-    width: 320px;
+    height: 300px;
+    width: 300px;
     justify-content: center;
     border-radius: 50px;
     margin:20px 0;
+    &:hover{
+        background-color: green;    
+    }
+
     img{
         max-width: 85%;
         height: auto;
