@@ -4,6 +4,7 @@
                 "id": 1,
                 "title": "Brawl Gaming",
                 "logo": "/images/udhc-logo.png",
+                "number": 1,
                 
                 "content":[
                     {
@@ -28,6 +29,7 @@
                 "id": 2,
                 "title": "Suncloud",
                 "logo": "/images/udhc-logo.png",
+                "number": 4,
                 "programs":[
                     {
                     "id": 1,
@@ -40,6 +42,7 @@
                 "id": 3,
                 "title": "Umeå Dragons HC",
                 "logo":"/images/udhc-logo.png",
+                "number": 3,
                 "programs":[
                     {
                     "id": 1,
@@ -53,6 +56,7 @@
                 "id": 4,
                 "title": "Suncloud",
                 "logo": "/images/udhc-logo.png",
+                "number": 2,
                 "programs":[
                     {
                     "id": 1,

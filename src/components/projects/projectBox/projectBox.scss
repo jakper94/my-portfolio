@@ -1,5 +1,6 @@
 @import "../../../resources/variables.scss";
 
+$target-width:640px;
 .project-box{
     display: flex;
     flex-direction: column;
@@ -10,6 +11,10 @@
     justify-content: center;
     border-radius: 50px;
     margin:20px 0;
+    @media only screen and (max-width: $target-width){
+        margin:5px 0;
+        background-color: blue;
+      }
     &:hover{
         background-color: green;    
     }

@@ -1,6 +1,7 @@
 @import "../../resources/variables.scss";
 
 $navigation-height: 80px;
+$target-width: 640px;
 
 .navigation {
   position: fixed;
@@ -43,6 +44,9 @@ $navigation-height: 80px;
       padding: 0 10px;
       font-size: 1rem;
       color: $color-navigation-text;
+      @media only screen and (max-width: $target-width){
+        padding:0 5px;
+      }
       &:hover {
         color: $color-underline;
         
@@ -56,6 +60,9 @@ $navigation-height: 80px;
       text-decoration: underline $color-underline ;
     }
     .icons{
+      @media only screen and (max-width: $target-width){
+       
+      }
       display: inline-block;
       line-height: $navigation-height;
     }

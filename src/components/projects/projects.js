@@ -16,6 +16,7 @@ const Projects = () =>{
                     <ProjectBox title={projects.title} logo={projects.logo}/>
                 ))}
             </div>
+           
         </section>
         );
 }
