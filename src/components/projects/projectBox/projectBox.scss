@@ -1,27 +1,29 @@
 @import "../../../resources/variables.scss";
 
-$target-width:640px;
-.project-box{
-    display: flex;
-    flex-direction: column;
+.project-box {
+  display: flex;
+  flex-direction: column;
 
-    background-color: red;
-    height: 300px;
-    width: 300px;
-    justify-content: center;
-    border-radius: 50px;
-    margin:20px 0;
-    @media only screen and (max-width: $target-width){
-        margin:5px 0;
-        background-color: blue;
-      }
-    &:hover{
-        background-color: green;    
-    }
+  background-color: #a3acb9;
+  height: 300px;
+  width: 300px;
+  justify-content: center;
+  border-radius: 50px;
+  margin: 20px 0;
+  box-shadow: $box-shadow;
 
-    img{
-        max-width: 85%;
-        height: auto;
-        margin:0 auto;
-    }
+  @media only screen and (max-width: $target-width) {
+    margin: 5px 0;
+  }
+  &:hover {
+    background-color: green;
+  }
+  h2 {
+    color: #ffffff;
+  }
+  img {
+    max-width: 85%;
+    height: auto;
+    margin: 0 auto;
+  }
 }

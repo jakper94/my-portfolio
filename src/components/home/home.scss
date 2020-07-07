@@ -1,7 +1,54 @@
 @import "../../resources/variables.scss";
 
-.firstName{
-    display: flex;
-    justify-content: start;
+.first-section {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  .name {
     font-size: 5rem;
+    color:$color-name;
+  }
+  .skills {
+    font-size: 1rem;
+    color:rgb(228, 216, 216);
+  }
+  background: linear-gradient(-45deg, #002f4f, #002f4f, #a0895d, #fadc17);
+  background-size: 400% 400%;
+  animation: gradient 25s ease infinite;
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+      //border-radius:0% 0%  70% 70%;
+    }
+    50% {
+      background-position: 100% 50%;
+      //border-radius: 0% 0%  0% 0%;
+    }
+    100% {
+      background-position: 0% 50%;
+      // border-radius: 0% 0%  70% 70%;
+    }
+  }
+}
+.second-section {
+  display: flex;
+  flex-flow: row;
+  .short-info {
+    
+
+    text-align: left;
+    display: flex;
+    flex-flow: column;
+    p {
+      width: 70%;
+    }
+  }
+  img {
+    width: 300px;
+    height: 300px;
+
+    object-fit: cover;
+    box-shadow: $box-shadow;
+    border-radius: 50%;
+  }
 }

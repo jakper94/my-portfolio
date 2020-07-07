@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from "react";
 import "./projects.scss"
 import ProjectBox from "./projectBox/projectbox"
-import projectData from "./projectData.json"
+import projectData from "../../jsonData/projectData.json"
 
 const project = projectData.projects;
 const Projects = () =>{
@@ -13,7 +13,7 @@ const Projects = () =>{
         
             <div className="projectBoxes">
                 {project.map(projects=>(
-                    <ProjectBox title={projects.title} logo={projects.logo}/>
+                    <ProjectBox title={projects.title} logo={projects.logo} id={projects.id}/>
                 ))}
             </div>
            

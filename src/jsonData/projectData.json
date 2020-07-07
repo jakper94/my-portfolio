@@ -1,0 +1,55 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "Brawl Gaming",
+      "logo": "/images/brawl-gaming-logo.png",
+      "number": 1,
+      "skills": "UX Design | Web Design | Web Development",
+      "content": [
+        {
+          "type": "School project",
+          
+          "about": "This school project was done in the course Design, Build, Test and in the course application for internet, where me and my project group collaborated with Brawl Gaming. Brawl gaming is a desktop client that lets gamers bet money on their own performance and play against other people worldwide. We got the task from Brawl Gaming to create their website with their graphical profile."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Suncloud",
+      "logo": "/images/suncloud-logo.png",
+      "number": 4,
+      "skills": "UX Design | App Development",
+      "content": [
+        {
+          "type": "School project",
+          "about": "Suncloud is a project that me and my "
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Umeå Dragons HC",
+      "logo": "/images/udhc-logo.png",
+      "number": 3,
+      "content": [
+        {
+          "type": "Side project",
+          "about": "Umeå Dragons HC is a icehockey team playing in västerbotten division 2"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": " Photos",
+      "logo": "/images/udhc-logo.png",
+      "number": 3,
+      "content": [
+        {
+          "type": "Hobby",
+          "about": "I have a passion for photograp"
+        }
+      ]
+    }
+  ]
+}

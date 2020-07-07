@@ -8,20 +8,20 @@ $target-width: 640px;
   top: 0;
   left: 0;
   right: 0;
-  padding: 0 80px;
+  padding: 0;
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: column wrap;
   align-items: center;
-  justify-content: center;  
-  justify-content: space-between;
+  justify-content: center;
   box-sizing: border-box;
   height: $navigation-height;
   background-color: $color-navigation;
   z-index: 10000;
+  opacity: 90%;
 
   .logo {
     display: flex;
-    flex-flow: row;;
+    flex-flow: row;
     img {
       height: $navigation-height - 25px;
     }
@@ -44,27 +44,31 @@ $target-width: 640px;
       padding: 0 10px;
       font-size: 1rem;
       color: $color-navigation-text;
-      @media only screen and (max-width: $target-width){
-        padding:0 5px;
+      @media only screen and (max-width: $target-width) {
+        padding: 0 5px;
       }
       &:hover {
         color: $color-underline;
-        
       }
     }
-    
 
     .active {
       color: $color-active;
       font-weight: bold;
-      text-decoration: underline $color-underline ;
+      text-decoration: underline $color-underline;
     }
-    .icons{
-      @media only screen and (max-width: $target-width){
-       
-      }
+  }
+  .icons {
+    @media only screen and (max-width: $target-width) {
+      display: none;
+    }
+    a {
+      margin: 0 5px;
+      color: $color-navigation-text;
       display: inline-block;
-      line-height: $navigation-height;
+      &:hover {
+        color: $color-underline;
+      }
     }
   }
 }
