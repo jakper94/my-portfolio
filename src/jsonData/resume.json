@@ -1,0 +1,26 @@
+{
+  "education": [
+    {
+      "id": 1,
+      "year": "2016 - ongoing",
+      "place": "Umeå University",
+      "title": "Master of Engineering - Interaction & Design",
+      "location": "Umeå"
+    },
+    {
+      "id": 2,
+      "year": "2010 - 2013",
+      "place": "Värmdö High school",
+      "title": "Natural sciences - Focus on rescue services",
+      "location": "Stockholm"
+    }
+  ],
+    "work":[
+        {
+            "id":1,
+            "year":"2013 - ongoing",
+            "title": "Driver",
+            "place": "Postnord"
+        }
+    ]
+}

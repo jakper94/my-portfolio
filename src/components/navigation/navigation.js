@@ -23,14 +23,12 @@ const Navigation = () => {
         <NavLink exact to="/about" onClick={() => scrollToTop()}>
           About
         </NavLink>
-
         <NavLink exact to="/resume" onClick={() => scrollToTop()}>
           Resume
         </NavLink>
         <NavLink exact to="/projects" onClick={() => scrollToTop()}>
           My Projects
         </NavLink>
-      
       </div>
       <div className="icons">
         <a href="mailto:jakob.j.persson@hotmail.com">

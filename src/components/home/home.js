@@ -14,7 +14,7 @@ const Home = () => {
         <div className="short-info">
           <h2>Background</h2>
           <p>
-            I'm currently studying my fifth year as I study Master of
+            I'm currently studying my fifth year as A study Master of
             Engineering in Interaction & Design. at Umeå University.
           </p>
         </div>

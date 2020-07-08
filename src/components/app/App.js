@@ -6,6 +6,7 @@ import About from "../about/about";
 import Footer from "../footer/footer";
 import Projects from "../projects/projects";
 import ProjectPage from "../projects/projectsite/project-site";
+import Resume from "../resume/resume";
 import "./app.scss";
 import "../../resources/site.scss";
 import projectData from "../../jsonData/projectData.json";
@@ -26,6 +27,7 @@ const App = () => {
           {projects.map((project) => (
             <Route path={"/project/:assignID"} component={ProjectPage} />
           ))}
+          <Route path="/resume" component={Resume} />
           <Route from="*" to="/" component={Home} />
         </Switch>
         <Footer />
