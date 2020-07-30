@@ -18,9 +18,11 @@
     "work":[
         {
             "id":1,
-            "year":"2013 - ongoing",
-            "title": "Driver",
-            "place": "Postnord"
+            "year":"2013 - Ongoing",
+            "title": "Package Delivery Driver",
+            "place": "Postnord",
+            "location": "Stockholm"
         }
+
     ]
 }

@@ -1,0 +1,13 @@
+@import "../../../resources/variables.scss";
+.design-skills {
+    
+  .design {
+    margin: 40px;
+    justify-content: center;
+    display: flex;
+    flex-flow: row;
+    .design-type {
+      width: 130px;
+    }
+  }
+}

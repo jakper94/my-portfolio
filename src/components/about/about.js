@@ -3,11 +3,11 @@ import "./about.scss";
 
 const About = () => {
   return (
-    <section>
+    <section className="about">
       <div className="header">
-        <img src={process.env.PUBLIC_URL + "/images/hockey-me.jpg"} />
+        {/*<img src={process.env.PUBLIC_URL + "/images/hockey-me.jpg"} />*/}
         <h1>About</h1>
-        <p>I am 26 years old and was born and raised in Stockholm</p>
+        <p>I am 2 6 years old and was born and raised in Stockholm</p>
       </div>
     </section>
   );

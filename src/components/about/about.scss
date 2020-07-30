@@ -1,10 +1,18 @@
 @import "../../resources/variables.scss";
-.header {
-  img {
-    width: 300px;
-    height: 300px;
-    object-fit: cover;
-    box-shadow: $box-shadow;
-    border-radius: 50%;
+.about {
+  margin: 0;
+  padding:0;
+  .header {
+    margin: 0;
+    background-image: url("/images/hockey-me.jpg");
+    background-size: cover;
+    img {
+      margin:100px;
+      width: 300px;
+      height: 300px;
+      object-fit: cover;
+      box-shadow: $box-shadow;
+      border-radius: 50%;
+    }
   }
 }
