@@ -1,11 +1,16 @@
 @import "../../resources/variables.scss";
 .resume {
-  margin: 0;
-  padding: 0px;
+  background-color: white; /*linear-gradient(
+    $color-background,
+    rgb(53, 59, 65),
+    $color-background
+  );*/
+  padding: 0;
   .top {
     padding: 30px;
-    background-image: url("/images/background.jpg");
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/portfolio-2e0f3.appspot.com/o/photos1.jpg?alt=media&token=2d29534a-c082-458e-b9c2-1997841c5760");
     background-size: cover;
+    
     img {
       margin-top: 80px;
       width: 300px;
@@ -15,38 +20,39 @@
       border-radius: 50%;
     }
     h1 {
+      color: white;
       margin: 20px;
       float: center;
     }
     h4 {
+      color: white;
       margin-bottom: 80px;
     }
   }
-  .education {
-    margin: 40px 0;
+  .downloadRes {
+    margin: 4px 0;
     padding: 50px;
-    .edu-box {
-      display: flex;
-      flex-flow: row;
-      justify-content: space-between;
-      margin: 40px 20%;
-      text-align: left;
-      .right {
-        text-align: right;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    .download-button {
+      background-color: $color-button-background;
+      border-radius: $button-border-size;
+      text-align: center;
+      width: $button-width;
+      padding: 5px;
+      margin: 5px;
+
+      border: 3px solid $color-button-border;
+      p {
+        color: $color-button-text;
       }
-    }
-  }
-  .work {
-    margin: 40px 0;
-    padding: 50px;
-    .work-box {
-      display: flex;
-      flex-flow: row;
-      justify-content: space-between;
-      margin: 40px 20%;
-      text-align: left;
-      .right{
-        text-align: right;
+      &:hover {
+        border: 3px solid$color-button-border-hoover;
+        background-color: $color-button-background-hoover;
+        p {
+          color: $color-button-text-hoover;
+        }
       }
     }
   }

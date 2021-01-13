@@ -1,23 +1,41 @@
-$color-background: #FBFBFC;
-$color-header-text: #1B1B1E;
+$color-background: #fbfbfc;
+$color-background-2: #e5e2e2;
+$color-header-text: #1b1b1e;
 $color-text: #1b1b1b;
-$color-navigation-text:#FBFBFC;
+$color-navigation-text: #fbfbfc;
 $color-border: #598053;
-$color-active: #FBFBFC;
+$color-active: #e27272;
 $color-header: #32322f;
 $color-subheader: #1e221b;
-$color-navigation: #1B1B1E;
-$color-footer:#1B1B1E;
-$color-name:#FBFBFC;
-$color-underline:#E27272;
+$color-navigation: #1b1b1e;
+$color-footer: #1b1b1e;
+$color-name: #fbfbfc;
+$color-underline: #e27272;
+$color-footer-text: #fbfbfc;
+$color-background-start: #1b1b1e;
 
-$color-background-start:#1B1B1E;
+/*project-boc settings*/
+$color-project-box: #e5e2e2;
+$color-project-box-text: #1b1b1e;
+$color-project-box-hoover: #1b1b1e;
+$color-project-box-text-hoover: #e5e2e2;
+
+/* Button settings*/
+$button-border-size: 3px;
+$button-width: 150px;
+$color-button-border: #1b1b1e;
+$color-button-text: #1b1b1e;
+$color-button-background: #fbfbfc;
+
+$color-button-border-hoover: #1b1b1e;
+$color-button-text-hoover: #fbfbfc;
+$color-button-background-hoover: #1b1b1e;
 
 $color-header-gradient: linear-gradient($color-header, $color-background);
 $color-button-gradient-accept: linear-gradient(#66b62d, #457c1e);
 $color-button-gradient-decline: linear-gradient(#ae4848, #6d2727);
-$color-button-hover:linear-gradient(#73cc33 ,#509023);
+$color-button-hover: linear-gradient(#73cc33, #509023);
 
-$box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+$box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
-$target-width:640px;
+$target-width: 640px;

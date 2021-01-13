@@ -1,0 +1,15 @@
+@import "../../../resources/variables.scss";
+.education {
+  background-color: $color-background-2;
+  padding: 80px;
+  .edu-box {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    margin: 20px 20%;
+    text-align: left;
+    .right {
+      text-align: right;
+    }
+  }
+}

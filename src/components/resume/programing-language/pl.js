@@ -13,7 +13,7 @@ const iconSize = 100;
 const Pl = () => {
   return (
     <div className="programing-skills">
-      <h2>Programing Skills</h2>
+      <h2>PROGRAMING SKILLS</h2>
 
       <div className="skills">
         <div className="type">

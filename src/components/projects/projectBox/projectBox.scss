@@ -3,27 +3,31 @@
 .project-box {
   display: flex;
   flex-direction: column;
-
-  background-color: #a3acb9;
+  background-color: $color-project-box;
   height: 300px;
   width: 300px;
   justify-content: center;
-  border-radius: 50px;
+  border-radius: 20px;
   margin: 20px 0;
   box-shadow: $box-shadow;
-
-  @media only screen and (max-width: $target-width) {
-    margin: 5px 0;
-  }
-  &:hover {
-    background-color: green;
-  }
   h2 {
-    color: #ffffff;
+    color: $color-project-box-text;
   }
   img {
     max-width: 85%;
     height: auto;
     margin: 0 auto;
+  }
+
+  &:hover {
+    background-color: $color-project-box-hoover;
+
+    h2 {
+      color: $color-project-box-text-hoover;
+    }
+  }
+
+  @media only screen and (max-width: $target-width) {
+    margin: 5px 0;
   }
 }

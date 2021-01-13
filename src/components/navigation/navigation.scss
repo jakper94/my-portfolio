@@ -17,11 +17,11 @@ $target-width: 640px;
   height: $navigation-height;
   background-color: $color-navigation;
   z-index: 10000;
-  opacity: 90%;
 
   .logo {
     display: flex;
     flex-flow: row;
+
     img {
       height: $navigation-height - 25px;
     }
@@ -44,6 +44,7 @@ $target-width: 640px;
       padding: 0 10px;
       font-size: 1rem;
       color: $color-navigation-text;
+
       @media only screen and (max-width: $target-width) {
         padding: 0 5px;
       }
@@ -51,7 +52,6 @@ $target-width: 640px;
         color: $color-underline;
       }
     }
-
     .active {
       color: $color-active;
       font-weight: bold;
@@ -68,6 +68,24 @@ $target-width: 640px;
       display: inline-block;
       &:hover {
         color: $color-underline;
+      }
+    }
+  }
+}
+@media (max-width: 957px) {
+  .navigation {
+    .logo {
+      display: flex;
+      flex-flow: row;
+
+      img {
+        height: $navigation-height - 25px;
+      }
+      .text {
+        display: none;
+        h4 {
+          margin: 2px;
+        }
       }
     }
   }

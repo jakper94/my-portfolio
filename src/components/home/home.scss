@@ -1,16 +1,15 @@
 @import "../../resources/variables.scss";
-
 .first-section {
   display: flex;
   flex-flow: column;
   justify-content: center;
   .name {
     font-size: 5rem;
-    color:$color-name;
+    color: $color-name;
   }
   .skills {
-    font-size: 1rem;
-    color:rgb(228, 216, 216);
+    font-size: 1.2rem;
+    color: $color-name;
   }
   background: linear-gradient(-45deg, #002f4f, #002f4f, #a0895d, #fadc17);
   background-size: 400% 400%;
@@ -30,25 +29,113 @@
     }
   }
 }
-.second-section {
+.short-info-box {
   display: flex;
   flex-flow: row;
-  .short-info {
-    
+  justify-content: center;
 
+  .short-info {
     text-align: left;
     display: flex;
     flex-flow: column;
+    justify-content: center;
+
     p {
-      width: 70%;
+      padding: 10px;
+      width: 500px;
     }
   }
-  img {
-    width: 300px;
-    height: 300px;
+  .image-container {
+    margin: 80px 0;
+    display: grid;
+    position: relative; // imperative for the overlapping to work
+    grid-template-columns: repeat(8, 1fr);
+    .bot-image {
+      grid-column: 4 / -1;
+      grid-row: 1;
+      img {
+        width: 280px;
+        height: 400px;
+        object-fit: cover;
+        box-shadow: $box-shadow;
+      }
+    }
+    .top-image {
+      grid-row: 1;
+      grid-column: 1 / span 5;
+      padding-top: 20%; // slightly arbitrary, keeps proportion once resized
+      z-index: 1; // tells the browser to make this image on top
+      img {
+        width: 270px;
+        height: 300px;
 
-    object-fit: cover;
-    box-shadow: $box-shadow;
-    border-radius: 50%;
+        object-fit: cover;
+        box-shadow: $box-shadow;
+      }
+    }
+  }
+}
+@media (max-width: 957px) {
+  .first-section {
+    height: 750px;
+    padding: 10px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    .name {
+      text-align: center;
+      font-size: 2.5rem;
+      color: $color-name;
+    }
+    .skills {
+      text-align: center;
+      font-size: 0.9rem;
+      color: $color-name;
+    }
+  }
+  .short-info-box {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-content: center;
+
+    .short-info {
+      text-align: center;
+      display: flex;
+      flex-flow: column;
+      align-content: center;
+      justify-content: center;
+      h1 {
+        padding: 0 10px;
+      }
+      p {
+        padding: 20px;
+        width: 90%;
+      }
+    }
+    .image-container {
+      margin: 0;
+
+      display: flex;
+      justify-content: center;
+      .bot-image {
+        display: none;
+        img {
+          width: 100px;
+          height: 200px;
+          object-fit: cover;
+          box-shadow: $box-shadow;
+        }
+      }
+      .top-image {
+        img {
+          width: 100%;
+          height: 300px;
+
+          object-fit: cover;
+          box-shadow: $box-shadow;
+        }
+      }
+    }
   }
 }

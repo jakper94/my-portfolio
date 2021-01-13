@@ -1,0 +1,14 @@
+@import "../../../resources/variables.scss";
+.work {
+  padding: 80px;
+  .work-box {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    margin: 40px 20%;
+    text-align: left;
+    .right {
+      text-align: right;
+    }
+  }
+}

@@ -3,12 +3,12 @@
 .footer {
   min-height: 20vh;
   background: $color-footer;
-  padding: 80px 80px 40px 80px;
+  padding: 80px 80px 10px 80px;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 50px;
-  grid-template-areas: "com com com" "copy copy copy";
-  grid-gap: 20px;
+  grid-template-areas: "com com" "copy copy";
+  grid-gap: 10px;
 
   .box {
     display: flex;
@@ -17,24 +17,23 @@
     width: 100%;
     div {
       display: flex;
-      align-items: flex-start;
+      align-items: center;
       flex-flow: column;
-      h4 {
+      h2 {
         display: block;
-        color: $color-text;
+        color: $color-footer-text;
         margin-bottom: 5px;
       }
       p {
         font-size: 0.9rem;
-        color: $color-text;
+        color: $color-footer-text;
       }
 
       a {
         font-size: 0.9rem;
-        font-family: "Roboto", sans-serif;
-        color: $color-text;
+        color: $color-footer-text;
         &:hover {
-          color: $color-active;
+          color: $color-underline;
         }
       }
     }
@@ -44,9 +43,59 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: $color-text;
+    color: $color-footer-text;
     font-size: 0.9rem;
-    font-family: "Roboto", sans-serif;
+    font-family: "Montserrat", sans-serif;
     opacity: 0.7;
+  }
+}
+@media (max-width: 957px) {
+  .footer {
+    min-height: 20vh;
+    background: $color-footer;
+    padding: 80px 80px 10px 80px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 50px;
+    grid-template-areas: "com" "copy";
+    grid-gap: 10px;
+    .box {
+      display: flex;
+      align-items: center;
+      flex-flow: column;
+      width: 100%;
+      div {
+        display: flex;
+        align-items: center;
+        flex-flow: column;
+        h2 {
+          display: block;
+          color: $color-footer-text;
+          margin-bottom: 5px;
+        }
+        p {
+          font-size: 0.9rem;
+          color: $color-footer-text;
+        }
+
+        a {
+          font-size: 0.9rem;
+          color: $color-footer-text;
+          &:hover {
+            color: $color-underline;
+          }
+        }
+      }
+    }
+    .copyright {
+      grid-area: copy;
+      display: flex;
+      
+      justify-content: center;
+      color: $color-footer-text;
+      font-size: 0.5rem;
+      font-family: "Montserrat", sans-serif;
+      opacity: 0.7;
+    }
   }
 }

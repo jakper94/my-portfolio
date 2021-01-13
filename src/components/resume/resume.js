@@ -2,10 +2,9 @@ import React from "react";
 import "./resume.scss";
 import ProgramingSkills from "./programing-language/pl";
 import DesignSkills from "./design-skills/design-skills";
-import ResumeData from "../../jsonData/resume.json";
+import Work from "./work/work";
+import Education from "./education/education";
 const Resume = () => {
-  const education = ResumeData.education;
-  const work = ResumeData.work;
   return (
     <div className="resume">
       <div className="top">
@@ -16,45 +15,27 @@ const Resume = () => {
         <h1>Jakob Persson</h1>
         <h4>Student - Master of Engineering in Interaction & Design</h4>
       </div>
-      <div className="education">
-        <h2>Education</h2>
-        {education.map((educa) => (
-          <div className="edu-box">
-            <div className="left">
-              <p>
-                <b>{educa.title}</b>
-              </p>
-            </div>
-            <div className="right">
-              <p>
-                <b>{educa.year}</b>
-              </p>
-              <p>{educa.place}</p>
-              <p>{educa.location}</p>
-            </div>
-          </div>
-        ))}
-      </div>
+      <Education />
       <ProgramingSkills />
       <DesignSkills />
-      <div className="work">
-        <h2>Work Experience</h2>
-        {work.map((works) => (
-          <div className="work-box">
-            <div className="left">
-              <p>
-                <b>{works.title}</b>
-              </p>
-            </div>
-            <div className="right">
-              <p>
-                <b>{works.year}</b>
-              </p>
-              <p>{works.place}</p>
-              <p>{works.location}</p>
-            </div>
+      <Work />
+      <div className="downloadRes">
+        <a
+          href="https://firebasestorage.googleapis.com/v0/b/portfolio-2e0f3.appspot.com/o/Resume_Jakob_Persson_Swe.pdf?alt=media&token=0e106b21-4508-4f19-b9f6-0caf240493ca"
+          target="_blank"
+          download
+        >
+          <div className="download-button">
+            {" "}
+            <p>Download CV (SV)</p>
           </div>
-        ))}
+        </a>
+        <a href="/pdf/Resume_Jakob_Persson_Swe.pdf" target="_blank" download>
+          <div className="download-button">
+            {" "}
+            <p>Download CV (EN)</p>
+          </div>
+        </a>
       </div>
     </div>
   );

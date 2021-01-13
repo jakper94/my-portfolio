@@ -1,0 +1,117 @@
+{
+    "projects": [
+      {
+        "id": 1,
+        "title": "Brawl Gaming",
+        "logo": "/images/brawl-gaming-logo.png",
+        "headerImage": "/images/brawl-gaming-header.png",
+        "number": 1,
+        "skills": "UX Design | Web Design | Web Development",
+        "textColor": "#fbfbfc",
+        "content": [
+          {
+            "type": "SCHOOL PROJECT",
+            "about": "This school project was done in the course Design, Build, Test and combined with the course application for internet. Where me and my project group collaborated with Brawl Gaming to create their website. Brawl gaming is a desktop client that lets gamers bet money on their own performance and play against other people worldwide. We got the task from Brawl Gaming to create their website with their graphical profile. \b We created a lofi prototype, did user test on it and then created a midfi prototype and developed the webpage in react",
+            "buttonLink": "https://brawlgaming.com/#/",
+            "buttonText": "Brawl gaming",
+            "how": "",
+            "image1": "/images/bg-image-1.jpg",
+            "image2": "images/sprint1.jpg",
+            "image2h3": "GOOGLE SPRINT",
+            "image2Text": "By following the google sprint book, we created a lofi prototype from al of our ideas.",
+            "image3": "images/bg-xd-1.png",
+            "image3h3": "MIDFI",
+            "image3Text": "We used Adobe XD to create a mid-fi prototype, and then built the webapplication from the prototype",
+            "image4": "images/brawl-gaming-header.png",
+            "image4h3": "WEBPAGE BUILT IN REACT",
+            "image4Text": "To create the webpage we used React, nodejs anf Sass. The pagew was divided in components and I was in charge for the Homepage component. Checkout the full website in the link under the about section.",
+            "react": 1,
+            "node": 1,
+            "xd": 1,
+            "sass": 1
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Suncloud",
+        "logo": "/images/suncloud-logo.png",
+        "headerImage": "/images/suncloud-background.png",
+        "number": 4,
+        "skills": "UX Design | App Development",
+        "textColor": "#1b1b1e",
+        "content": [
+          {
+            "type": "SCHOOL PROJECT",
+            "about": "Suncloud is a school project that was done in the course prototyputveckling för mobila applikationer. The task was to create a mobile application from Lo-Fi to a Hi-Fi. Me and my group created Suncloud, a weather application that gets the data from which receives data from an app that TFE's weather station at Umeå University has.. The Mid-FI was created in Adobe XD and the Hi-Fi was created in React Native, using Expo to run the application on our mobile devices.",
+            "how": "",
+            "image1": "/images/suncloud-phone.jpg",
+            "image2": "images/suncloud-lofi.png",
+            "image2h3": "Lo-FI",
+            "image2Text": "All members of the group had to first create their own Lo-Fi. We then chose different parts that we liked from everyone's Lo-Fi and reached the final Lo-Fi.",
+            "image3": "/images/suncloud-mockup.png",
+            "image3h3": "React Native",
+            "image3Text": "The application was created in React Native, where we built up the application with different components. The components were divided between us in the group so that everyone had something to build. To ensure that we would not create any conflicts in github, we used gitkraken.",
+            "node": 1,
+            "reactNative": 1,
+            "xd": 1
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Umeå Dragons HC",
+        "logo": "/images/udhc-logo.png",
+        "headerImage": "/images/background-udhc.png",
+        "number": 3,
+        "skills": " Social media content | Graphical design",
+        "textColor": "#fbfbfc",
+        "content": [
+          {
+            "type": "SIDE PROJECT",
+            "about": "Umeå Dragons HC is an ice hockey team that plays in Västerbotten division 2. I started to take care of their social media in 2017 and have since published content on instagram and facebook. It is both a mix of images and graphic content that I made myself.",
+            "buttonLink": "https://www.instagram.com/drakensinsta/",
+            "buttonText": "Umeå Dragons Instagram",
+            "how": "",
+            "image1": "/images/udhc-mockup.jpg",
+            "image2": "/images/udhc-photoshop.png",
+            "image2h3": "ADOBE PHOTOSHOP & ADOBE IlLUSTRATOR",
+            "image2Text": "The content that I create for Umeå Dragons HC, is created in Adobe Photoshop and Adobe Illustrator. I create templates that I use before and after the games, it allows me to work efficiently and only need to change the results or any opposing team involved.",
+            "image3": "/images/udhc-ig.png",
+            "image3h3": "CONTENT FOR INSTAGRAM",
+            "image3Text": "The content that I create is published on Umeå Dragons HC instagram and facebook. The content follows Umeå Dragons HC graphical profile.",
+            "photoshop": 1,
+            "illustrator": 1
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "title": " Photos",
+        "logo": "/images/photoLogo.png",
+        "headerImage": "/images/aik-foto.jpg",
+        "number": 3,
+        "skills": " Photography | Photo editing",
+        "textColor": "#fbfbfc",
+        "content": [
+          {
+            "type": "HOBBY",
+            "about": "One of my hobbies is photography, I have, among other things, photographed during Allsvenskan football matches and for various events that have been held during the years I attended my education at Umeå University. But I also take pictures of nature and when I have been traveling.",
+            "buttonLink": "https://www.flickr.com/photos/jakobphotos/albums",
+            "buttonText": "My photos",
+            "how": "",
+            "image1": "/images/jakob-allsvenskan.jpg",
+            "image2": "/images/aik-foto.jpg",
+            "image2h3": "ALLSVENSKAN",
+            "image2Text": "AIK - Elfsborg 2018 efter att AIK gjort mål!",
+            "image3": "/images/rs6.jpg",
+            "image3h3": "Gumball 3000",
+            "image3Text": "Photo of Jon Olssons modified audi rs6 which he used during gumball 3000 in stockholm 2015",
+            "photoshop": 1,
+            "camera": 1
+          }
+        ]
+      }
+    ]
+  }
+  

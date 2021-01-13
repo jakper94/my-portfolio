@@ -1,11 +1,13 @@
 @import "../../../resources/variables.scss";
 .design-skills {
-    
+  padding: 80px;
+  background-color: $color-background-2;
   .design {
-    margin: 40px;
-    justify-content: center;
     display: flex;
     flex-flow: row;
+    margin: 40px;
+    justify-content: center;
+
     .design-type {
       width: 130px;
     }

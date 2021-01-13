@@ -1,0 +1,10 @@
+@import "../../../../resources/variables.scss";
+.program-used {
+  .programs {
+    display: flex;
+    flex-flow: row;
+    p {
+      font-size: 35px;
+    }
+  }
+}

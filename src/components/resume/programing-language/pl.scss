@@ -1,16 +1,15 @@
 @import "../../../resources/variables.scss";
 
 .programing-skills {
-  padding: 40px;
-  background-image: linear-gradient($color-background, rgb(209, 199, 199));
-
+  padding: 80px;
   .skills {
-    margin: 80px;
+    margin: 40px;
     justify-content: center;
     display: flex;
-    flex-flow: row;
+    flex-flow: row wrap;
     .type {
       width: 130px;
     }
   }
 }
+
